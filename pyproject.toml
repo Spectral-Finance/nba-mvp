@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "nba-mvp"
+version = "0.1.0"
+description = ""
+authors = ["Zhou Zhang <zhou.zhang@berkeley.edu>"]
+readme = "README.md"
+packages = [{include = "nba_mvp"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.0.3"
+nba-api = "^1.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
